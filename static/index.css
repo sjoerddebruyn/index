@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBFBFB; /* Light background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Neutral text color for contrast */
+}
+
+/* Section Styling */
+section {
+    height: 100vh; /* Full screen height for each section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.background_1{
+    background-image: url("image.png");
+}
+
+.background_2{
+    background-color: #333;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #242627; /* Primary highlight color */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #FFDDAE; /* Secondary highlight color */
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+    line-height: 1.8;
+    color: #555; /* Softer text color */
+    margin: 0 20px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #C6E7FF; /* Footer background */
+    color: #FBFBFB; /* Text color for contrast */
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color:#b8b6b2;
+}
+
