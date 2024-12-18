@@ -1,6 +1,12 @@
-{% extends "base.html"%}
-
-{%block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sjoerd De Bruyn {%block title%}{%endblock%}</title>
+    <link href="/static/index.css" rel="stylesheet">
+</head>
+<body>
     <section class="background_1">
         <div class="welcome_p">
             <h1>
@@ -13,11 +19,12 @@
         <div>
     </section>
     <section class="background_2">
-        <div ="home_redirects">
+        <div class="home_redirects">
             <h2><a href="my_story">My Story</h2>
             <h2><a href="about/auto_bio.html">My Professional Work</h2>
             <h2><a href="about/auto_bio.html">My Projects</h2>
             <h2><a href="about/auto_bio.html">My Skills and Accomplishements</h2>
         <div> 
     </section>
-{%endblock%}
+</body>
+</html>
